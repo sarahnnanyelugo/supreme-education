@@ -1,0 +1,19 @@
+.nav-container {
+  padding: 10px;
+  background: #fff;
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+}
+.logo {
+  margin-top: -50px;
+  position: relative;
+  z-index: 4;
+}
+.offcanvas {
+  width: 70% !important;
+}
+.menu-actions {
+  background: #250101;
+}

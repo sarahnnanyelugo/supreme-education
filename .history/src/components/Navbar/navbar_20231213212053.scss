@@ -1,0 +1,140 @@
+.nav-container {
+  padding: 10px;
+  background: #fff;
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+}
+.logo {
+  margin-top: -50px;
+  position: relative;
+  z-index: 4;
+}
+.offcanvas {
+  width: 70% !important;
+}
+.menu-actions {
+  background: #f6f6f6;
+  padding: 30px;
+  .img-holder {
+    position: relative;
+    img {
+      border-radius: 10px;
+
+      margin-bottom: 30px;
+    }
+    .overlay {
+      position: absolute;
+      z-index: 4;
+      text-align: center;
+    }
+  }
+}
+$ggr: #51e980;
+$b: #58f;
+
+@mixin transition($in) {
+  transition: $in;
+  -ms-transition: $in;
+  -o-transition: $in;
+  -webkit-transition: $in;
+  -moz-transition: $in;
+}
+@mixin transform($in) {
+  transform: $in;
+  -ms-transform: $in;
+  -o-transform: $in;
+  -webkit-transform: $in;
+  -moz-transform: $in;
+}
+@mixin box-shadow($in) {
+  box-shadow: $in;
+  -ms-box-shadow: $in;
+  -o-box-shadow: $in;
+  -webkit-box-shadow: $in;
+  -moz-box-shadow: $in;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+span.bar {
+  display: block;
+  width: 30px;
+  height: 5px;
+  margin-top: 5px;
+  background: #fff;
+  border-radius: 2px;
+}
+#togg_menu {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+
+  &:focus ~ header > .megaMenu {
+    @include transform(translateX(0px));
+  }
+}
+header {
+  .megaMenu {
+    @include transform(translateX(-270px));
+    @include transition(all 0.3s ease-in-out);
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    background: #fff;
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    padding-top: 50px;
+    z-index: 100;
+    border-right: 2px solid #ddd;
+    @include box-shadow(2px 2px 50px 3px #000);
+
+    li {
+      @include transition(all 0.3s ease-in-out);
+      border-left: 5px solid transparent;
+      a {
+        text-align: center;
+        padding: 15px 0;
+        background: #fff;
+        width: 90%;
+        @include transition(all 0.3s ease-in-out);
+
+        &:hover {
+          color: $ggr;
+        }
+      }
+      &:hover {
+        border-left: 5px solid $ggr;
+      }
+    }
+  }
+
+  .biggie {
+    @include transform(translateX(-270px));
+    @include transition(all 0.3s ease-in-out);
+    list-style-type: none;
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    padding-top: 50px;
+    background: #fff;
+    z-index: -1;
+  }
+}
+
+.stuff {
+  &:hover > .biggie {
+    @include transform(translateX(252px));
+  }
+}

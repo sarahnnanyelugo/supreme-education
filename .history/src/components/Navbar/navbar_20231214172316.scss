@@ -1,0 +1,43 @@
+.nav-container {
+  padding: 10px;
+  background: #fff;
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+}
+.logo {
+  margin-top: -50px;
+  position: relative;
+  z-index: 4;
+}
+.offcanvas {
+  width: 70% !important;
+}
+.menu-actions {
+  background: #f6f6f6;
+  padding: 30px;
+  .img-holder {
+    position: relative;
+    img {
+      border-radius: 10px;
+
+      margin-bottom: 30px;
+    }
+    .overlay {
+      position: absolute;
+      z-index: 4;
+      text-align: center;
+    }
+  }
+}
+.main-menu {
+  cursor: pointer;
+  &:hover {
+    .sub-menu {
+      ul li {
+        color: red !important;
+      }
+    }
+  }
+}
