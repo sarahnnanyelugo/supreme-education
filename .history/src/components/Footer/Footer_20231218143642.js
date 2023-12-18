@@ -69,7 +69,7 @@ export default function Footer() {
             <div className="flexy flexyM">
               {" "}
               <input placeholder="Enter your email address" />
-              <button className="send-btn">
+              <button>
                 {" "}
                 <img src={Img5} alt="icon" className="" />
               </button>

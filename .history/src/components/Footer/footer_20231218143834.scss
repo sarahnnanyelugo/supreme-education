@@ -1,0 +1,36 @@
+.footer-actions {
+  height: 283px;
+  background: url("../../assets/images/building.png");
+  padding-top: 100px;
+  color: #fff;
+  button {
+    margin: 20px;
+    color: #fff;
+    background-color: transparent;
+    border: solid 1px #fff;
+    padding: 12px 24px;
+  }
+  .send-btn {
+    background: #fff;
+    margin: 5px;
+    padding: 5px;
+  }
+  input {
+    margin-top: 20px;
+    width: 247px;
+    height: 43px;
+    padding: 12px 18px;
+    background: transparent;
+    border: solid 1px #fff;
+    color: #fff;
+    color: #fff;
+    font-family: ralewayR;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  ::placeholder {
+    color: #fff !important;
+  }
+}

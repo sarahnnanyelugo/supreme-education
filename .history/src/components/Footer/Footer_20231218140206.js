@@ -4,14 +4,12 @@ import Logo from "../../assets/images/logo.png";
 import Img1 from "../../assets/images/location.svg";
 import Img2 from "../../assets/images/call.svg";
 import Img3 from "../../assets/images/sms.svg";
-import Img4 from "../../assets/images/arrow.svg";
-import Img5 from "../../assets/images/send.svg";
 import "./footer.scss";
 export default function Footer() {
   return (
     <footer>
-      <div className="flexy ">
-        <div className="col-md-5 flexy ">
+      <div className="flexy offset-md-1">
+        <div className="col-md-4 flexy">
           {" "}
           <div className="col-md-6">
             {" "}
@@ -43,39 +41,7 @@ export default function Footer() {
             </p>
           </div>
         </div>
-        <div className="col-md-7 footer-actions">
-          <div className="col-md-8 offset-md-4 flexy flexyM">
-            <Link to={""}>
-              {" "}
-              <button>
-                Enquire <img src={Img4} alt="icon" className="" />
-              </button>
-            </Link>{" "}
-            <Link to={""}>
-              {" "}
-              <button>
-                Apply <img src={Img4} alt="icon" className="" />
-              </button>
-            </Link>{" "}
-            <Link to={""}>
-              {" "}
-              <button>
-                Visit <img src={Img4} alt="icon" className="" />
-              </button>
-            </Link>
-          </div>
-          <div className="offset-md-6">
-            <h6>Sign up to our newsletter to get updated</h6>
-            <div className="flexy flexyM">
-              {" "}
-              <input placeholder="Enter your email address" />
-              <button className="send-btn">
-                {" "}
-                <img src={Img5} alt="icon" className="" />
-              </button>
-            </div>
-          </div>
-        </div>
+        <div className="col-md-8 footer-actions"></div>
       </div>
     </footer>
   );

@@ -5,7 +5,6 @@ import Img1 from "../../assets/images/location.svg";
 import Img2 from "../../assets/images/call.svg";
 import Img3 from "../../assets/images/sms.svg";
 import Img4 from "../../assets/images/arrow.svg";
-import Img5 from "../../assets/images/send.svg";
 import "./footer.scss";
 export default function Footer() {
   return (
@@ -69,10 +68,7 @@ export default function Footer() {
             <div className="flexy flexyM">
               {" "}
               <input placeholder="Enter your email address" />
-              <button className="send-btn">
-                {" "}
-                <img src={Img5} alt="icon" className="" />
-              </button>
+              <button></button>
             </div>
           </div>
         </div>
