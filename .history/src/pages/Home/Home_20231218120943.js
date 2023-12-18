@@ -27,7 +27,6 @@ import Img19 from "../../assets/images/q2.png";
 import CountUp from "react-countup";
 
 import "./home.scss";
-import { News } from "./News/News";
 export const Home = () => {
   return (
     <>
@@ -338,14 +337,14 @@ export const Home = () => {
           </div>
         </div>
       </div>{" "}
-      <div className="col-md-8 offset-md-2 stories">
+      <div className="col-md-8 offset-md-2">
         <center>
           {" "}
           <h1>Supreme Stories</h1>
         </center>
         <div className="flexy flexyM">
           {" "}
-          <div className="col-md-2">
+          <div className="col-md-3">
             {" "}
             <img src={Img18} alt="sch-images" />
           </div>
@@ -364,15 +363,7 @@ export const Home = () => {
         <center>
           {" "}
           <img src={Img17} alt="sch-images" />
-          <h6>Oluchi</h6>
         </center>
-      </div>
-      <div className="mt">
-        {" "}
-        <center>
-          <h1>News at Supreme</h1>
-        </center>
-        <News />
       </div>
     </>
   );

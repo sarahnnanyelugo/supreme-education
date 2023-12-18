@@ -27,7 +27,6 @@ import Img19 from "../../assets/images/q2.png";
 import CountUp from "react-countup";
 
 import "./home.scss";
-import { News } from "./News/News";
 export const Home = () => {
   return (
     <>
@@ -366,13 +365,6 @@ export const Home = () => {
           <img src={Img17} alt="sch-images" />
           <h6>Oluchi</h6>
         </center>
-      </div>
-      <div className="mt">
-        {" "}
-        <center>
-          <h1>News at Supreme</h1>
-        </center>
-        <News />
       </div>
     </>
   );

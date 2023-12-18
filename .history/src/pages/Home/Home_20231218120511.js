@@ -27,7 +27,6 @@ import Img19 from "../../assets/images/q2.png";
 import CountUp from "react-countup";
 
 import "./home.scss";
-import { News } from "./News/News";
 export const Home = () => {
   return (
     <>
@@ -338,41 +337,16 @@ export const Home = () => {
           </div>
         </div>
       </div>{" "}
-      <div className="col-md-8 offset-md-2 stories">
-        <center>
-          {" "}
-          <h1>Supreme Stories</h1>
-        </center>
+      <div className="col-md-8 offset-md-2">
+        <h1>Supreme Stories</h1>
         <div className="flexy flexyM">
           {" "}
-          <div className="col-md-2">
-            {" "}
-            <img src={Img18} alt="sch-images" />
-          </div>
-          <center>
-            {" "}
-            <p className="col-md-">
-              Supreme is a great school! The teachers here are super about
-              encouraging students to do their very best.
-            </p>
-          </center>
-          <div className="col-md-2 offset-md-1">
-            {" "}
-            <img src={Img19} alt="sch-images" />
-          </div>
+          <img src={Img18} alt="sch-images" />
+          <p>
+            Supreme is a great school! The teachers here are super about
+            encouraging students to do their very best.
+          </p>
         </div>
-        <center>
-          {" "}
-          <img src={Img17} alt="sch-images" />
-          <h6>Oluchi</h6>
-        </center>
-      </div>
-      <div className="mt">
-        {" "}
-        <center>
-          <h1>News at Supreme</h1>
-        </center>
-        <News />
       </div>
     </>
   );
