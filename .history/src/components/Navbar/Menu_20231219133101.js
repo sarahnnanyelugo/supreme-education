@@ -92,25 +92,27 @@ function Menu({ name, ...props }) {
                   >
                     <ul className="list-unstyled">
                       <li>
-                        <NavLink to={"/founder"} onClick={handleClose}>
-                          Our Founder
-                        </NavLink>
+                        <NavLink to={"/founder"}>Our Founder</NavLink>
                       </li>
-
+                    </ul>
+                    <ul>
                       <li>
-                        <NavLink to={"/our-ceo"}>Our CEO</NavLink>
+                        <NavLink>Our CEO</NavLink>
                       </li>
-
+                    </ul>
+                    <ul>
                       <li>
-                        <NavLink to={"/who-we-are"}>Who we are</NavLink>
+                        <NavLink>Who we are</NavLink>
                       </li>
-
+                    </ul>
+                    <ul>
                       <li>
-                        <NavLink to={"/tour"}>Virtual Tour</NavLink>
+                        <NavLink>Virtual Tour</NavLink>
                       </li>
-
+                    </ul>
+                    <ul>
                       <li>
-                        <NavLink to={"/contact"}>Contact us</NavLink>
+                        <NavLink>Contact us</NavLink>
                       </li>
                     </ul>
                   </div>

@@ -64,7 +64,6 @@
     text-align: left;
     cursor: pointer;
     font-size: 30px;
-    border-right: solid 1px rgb(159, 157, 157);
   }
 
   /* Change background color of buttons on hover */
@@ -79,7 +78,7 @@
 
   .tabcontent {
     float: left;
-    padding: 0px 40px;
+    padding: 0px 12px;
 
     width: 70%;
     border-left: none;

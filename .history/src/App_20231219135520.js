@@ -6,7 +6,6 @@ import { Home } from "./pages/Home/Home";
 import { Navbar } from "./components/Navbar/Navbar";
 import ScrollToTop from "./components/scrollToTop";
 import Footer from "./components/Footer/Footer";
-import { Founder } from "./pages/Founder/Founder";
 function App() {
   return (
     <>
@@ -16,7 +15,7 @@ function App() {
       <Routes>
         {" "}
         <Route path="/" element={<Home />} />
-        <Route path="/founder" element={<Founder />} />
+        <Route path="/founder" element={<Home />} />
       </Routes>
       <Footer />
     </>

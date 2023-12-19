@@ -1,0 +1,15 @@
+.banner-holder {
+  position: relative;
+  img {
+    margin-top: -160px;
+  }
+  .title-overlay {
+    position: absolute;
+    left: 40%;
+    bottom: 0;
+    h1 {
+      color: #fff;
+      font-size: 72px;
+    }
+  }
+}

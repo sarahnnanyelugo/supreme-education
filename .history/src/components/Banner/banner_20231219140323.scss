@@ -1,0 +1,12 @@
+.banner-holder {
+  position: relative;
+  .title-overlay {
+    position: absolute;
+
+    bottom: 0;
+    h1 {
+      font-size: 72px;
+      text-align: center;
+    }
+  }
+}

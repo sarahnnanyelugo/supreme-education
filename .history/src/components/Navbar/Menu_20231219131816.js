@@ -5,7 +5,6 @@ import MenuIcon from "../../assets/images/menu.png";
 import MenuImg1 from "../../assets/images/menu-img1.png";
 import MenuImg2 from "../../assets/images/menu-img2.png";
 import MenuImg3 from "../../assets/images/menu-img3.png";
-import { NavLink } from "react-router-dom";
 
 function Menu({ name, ...props }) {
   const [show, setShow] = useState(false);
@@ -29,11 +28,7 @@ function Menu({ name, ...props }) {
 
       <Offcanvas show={show} onHide={handleClose} {...props}>
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title className="offset-md-9 flexy">
-            {" "}
-            <button className="app-btn">Portal</button>
-            {/* <p>Close</p> */}
-          </Offcanvas.Title>
+          <Offcanvas.Title></Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
           <div className="menu-body flexy">
@@ -61,6 +56,7 @@ function Menu({ name, ...props }) {
               </div>
             </div>
             <div className="col-md-8  nav-tab ">
+              <button>Portal</button>
               <div className="tab flexy flexyM col-md-12">
                 <div className="col-md-6">
                   {" "}
@@ -84,35 +80,15 @@ function Menu({ name, ...props }) {
                 </div>
 
                 <div className="col-md-6">
+                  {" "}
                   <div
                     id="About Supreme"
                     className={`tabcontent ${
                       activeTab === "About Supreme" ? "active" : ""
                     }`}
                   >
-                    <ul className="list-unstyled">
-                      <li>
-                        <NavLink to={"/founder"} onClick={handleClose}>
-                          Our Founder
-                        </NavLink>
-                      </li>
-
-                      <li>
-                        <NavLink to={"/our-ceo"}>Our CEO</NavLink>
-                      </li>
-
-                      <li>
-                        <NavLink to={"/who-we-are"}>Who we are</NavLink>
-                      </li>
-
-                      <li>
-                        <NavLink to={"/tour"}>Virtual Tour</NavLink>
-                      </li>
-
-                      <li>
-                        <NavLink to={"/contact"}>Contact us</NavLink>
-                      </li>
-                    </ul>
+                    <h3>London</h3>
+                    <p>London is the capital city of England.</p>
                   </div>
                   <div
                     id="Admissions"

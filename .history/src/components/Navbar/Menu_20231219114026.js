@@ -5,14 +5,13 @@ import MenuIcon from "../../assets/images/menu.png";
 import MenuImg1 from "../../assets/images/menu-img1.png";
 import MenuImg2 from "../../assets/images/menu-img2.png";
 import MenuImg3 from "../../assets/images/menu-img3.png";
-import { NavLink } from "react-router-dom";
 
 function Menu({ name, ...props }) {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-  const [activeTab, setActiveTab] = useState("About Supreme"); // Initial active tab
+  const [activeTab, setActiveTab] = useState("London"); // Initial active tab
   const handleTabHover = (cityName) => {
     setActiveTab(cityName);
   };
@@ -29,11 +28,7 @@ function Menu({ name, ...props }) {
 
       <Offcanvas show={show} onHide={handleClose} {...props}>
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title className="offset-md-9 flexy">
-            {" "}
-            <button className="app-btn">Portal</button>
-            {/* <p>Close</p> */}
-          </Offcanvas.Title>
+          <Offcanvas.Title></Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
           <div className="menu-body flexy">
@@ -60,17 +55,11 @@ function Menu({ name, ...props }) {
                 </div>
               </div>
             </div>
-            <div className="col-md-8  nav-tab ">
-              <div className="tab flexy flexyM col-md-12">
+            <div className="col-md-8  nav-tab flexy">
+              <div className="tab">
                 <div className="col-md-6">
                   {" "}
-                  {[
-                    "About Supreme",
-                    "Admissions",
-                    "Academics",
-                    "Student Life",
-                    "Media",
-                  ].map((city) => (
+                  {["London", "Paris", "Tokyo"].map((city) => (
                     <button
                       key={city}
                       className={`tablinks ${
@@ -84,70 +73,32 @@ function Menu({ name, ...props }) {
                 </div>
 
                 <div className="col-md-6">
+                  {" "}
                   <div
-                    id="About Supreme"
+                    id="London"
                     className={`tabcontent ${
-                      activeTab === "About Supreme" ? "active" : ""
+                      activeTab === "London" ? "active" : ""
                     }`}
                   >
-                    <ul className="list-unstyled">
-                      <li>
-                        <NavLink to={"/founder"} onClick={handleClose}>
-                          Our Founder
-                        </NavLink>
-                      </li>
-
-                      <li>
-                        <NavLink to={"/our-ceo"}>Our CEO</NavLink>
-                      </li>
-
-                      <li>
-                        <NavLink to={"/who-we-are"}>Who we are</NavLink>
-                      </li>
-
-                      <li>
-                        <NavLink to={"/tour"}>Virtual Tour</NavLink>
-                      </li>
-
-                      <li>
-                        <NavLink to={"/contact"}>Contact us</NavLink>
-                      </li>
-                    </ul>
+                    <h3>London</h3>
+                    <p>London is the capital city of England.</p>
                   </div>
                   <div
-                    id="Admissions"
+                    id="Paris"
                     className={`tabcontent ${
-                      activeTab === "Admissions" ? "active" : ""
+                      activeTab === "Paris" ? "active" : ""
                     }`}
                   >
                     <h3>Paris</h3>
                     <p>Paris is the capital of France.</p>
                   </div>
                   <div
-                    id="Academics"
+                    id="Tokyo"
                     className={`tabcontent ${
-                      activeTab === "Academics" ? "active" : ""
+                      activeTab === "Tokyo" ? "active" : ""
                     }`}
                   >
                     <h3>Tokyo</h3>
-                    <p>Tokyo is the capital of Japan.</p>
-                  </div>
-                  <div
-                    id="Student Life"
-                    className={`tabcontent ${
-                      activeTab === "Student Life" ? "active" : ""
-                    }`}
-                  >
-                    <h3>Life</h3>
-                    <p>Tokyo is the capital of Japan.</p>
-                  </div>
-                  <div
-                    id="Media"
-                    className={`tabcontent ${
-                      activeTab === "Media" ? "active" : ""
-                    }`}
-                  >
-                    <h3>Media</h3>
                     <p>Tokyo is the capital of Japan.</p>
                   </div>
                 </div>
