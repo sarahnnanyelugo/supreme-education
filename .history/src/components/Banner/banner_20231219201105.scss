@@ -1,7 +1,7 @@
 .banner-holder {
   position: relative;
   img {
-    margin-top: -290px !important;
+    margin-top: -190px;
   }
   .title-overlay {
     position: absolute;
@@ -25,13 +25,11 @@
   li {
     display: inline;
   }
-  .active {
-    color: #fff !important;
-    background: red !important
-  ;
-  }
 }
-
+.active {
+  color: #fff !important;
+  background: red;
+}
 .page-navs {
   padding: 10px 16px;
   font-size: 16px;
@@ -44,17 +42,4 @@
     background: red;
     color: #fff;
   }
-}
-.breadcrumb-item + .breadcrumb-item {
-  a {
-    color: #000 !important;
-    font-size: 12px;
-    text-decoration: none !important;
-  }
-}
-
-a {
-  color: #000 !important;
-  font-size: 12px;
-  text-decoration: none !important;
 }

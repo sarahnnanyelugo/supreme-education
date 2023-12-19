@@ -79,7 +79,7 @@
 
   .tabcontent {
     float: left;
-    // padding: 0px 40px;
+    padding: 0px 40px;
 
     width: 70%;
     border-left: none;
@@ -99,7 +99,6 @@
 }
 .active {
   background: green !important;
-  color: #fff !important;
 }
 .menu-navs {
   padding: 10px 10px;
@@ -111,6 +110,6 @@
 
   &:hover {
     background: green;
-    color: #fff !important;
+    color: #fff;
   }
 }

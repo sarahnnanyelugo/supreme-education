@@ -6,11 +6,10 @@ import Img6 from "../../assets/images/play.png";
 import Img7 from "../../assets/images/tour.png";
 import { about } from "../../TestData";
 import "./founder.scss";
-export const Founder = () => {
+export const CEO = () => {
   return (
     <div className="founder-div">
       <Banner
-        pageTitle="Our Founder"
         banner={LandingImg}
         links={about}
         mainpage="About Us"

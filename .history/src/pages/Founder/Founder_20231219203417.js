@@ -10,11 +10,10 @@ export const Founder = () => {
   return (
     <div className="founder-div">
       <Banner
-        pageTitle="Our Founder"
         banner={LandingImg}
         links={about}
         mainpage="About Us"
-        currentPage="OUR FOUNDER"
+        currentpage="OUR FOUNDER"
       />
       <div className="flexy  col-md-10 offset-md-1">
         <div className="col-md-7 mt7" style={{ lineHeight: "35px" }}>
@@ -70,7 +69,7 @@ export const Founder = () => {
         <div className="col-md-4 offset-md-1 mt7">
           <img src={FounderImg} alt="pic" width="100%" />
           <center>
-            <h5 className="mt1">
+            <h5>
               <strong>MRS. A.A ADOMOLEKUN</strong>
             </h5>
           </center>

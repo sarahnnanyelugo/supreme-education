@@ -10,7 +10,6 @@ export const Founder = () => {
   return (
     <div className="founder-div">
       <Banner
-        pageTitle="Our Founder"
         banner={LandingImg}
         links={about}
         mainpage="About Us"

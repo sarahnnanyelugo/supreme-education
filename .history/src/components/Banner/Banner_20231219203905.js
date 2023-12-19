@@ -9,7 +9,7 @@ export const Banner = (props) => {
       <div className="banner-holder">
         <img src={props.banner} alt="sch-imgs" width="100%" />
         <div className="title-overlay">
-          <h1>{props.pageTitle}</h1>
+          <h1>Our Founder</h1>
         </div>
       </div>
       <div className="page-links">
@@ -26,7 +26,7 @@ export const Banner = (props) => {
         ))}
       </div>
       <Breadcrumb className="offset-md-1 mt2">
-        <Breadcrumb.Item href="/" className="b-home">
+        <Breadcrumb.Item href="/" style={{ color: "#000" }}>
           Home
         </Breadcrumb.Item>
         <Breadcrumb.Item>{props.mainpage}</Breadcrumb.Item>

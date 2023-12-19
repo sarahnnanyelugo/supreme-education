@@ -9,7 +9,7 @@ export const Banner = (props) => {
       <div className="banner-holder">
         <img src={props.banner} alt="sch-imgs" width="100%" />
         <div className="title-overlay">
-          <h1>{props.pageTitle}</h1>
+          <h1>Our Founder</h1>
         </div>
       </div>
       <div className="page-links">

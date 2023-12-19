@@ -6,15 +6,14 @@ import Img6 from "../../assets/images/play.png";
 import Img7 from "../../assets/images/tour.png";
 import { about } from "../../TestData";
 import "./founder.scss";
-export const Founder = () => {
+export const CEO = () => {
   return (
     <div className="founder-div">
       <Banner
-        pageTitle="Our Founder"
         banner={LandingImg}
         links={about}
         mainpage="About Us"
-        currentPage="OUR FOUNDER"
+        currentPage="OUR CEO"
       />
       <div className="flexy  col-md-10 offset-md-1">
         <div className="col-md-7 mt7" style={{ lineHeight: "35px" }}>

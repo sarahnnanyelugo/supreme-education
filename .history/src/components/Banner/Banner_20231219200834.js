@@ -9,7 +9,7 @@ export const Banner = (props) => {
       <div className="banner-holder">
         <img src={props.banner} alt="sch-imgs" width="100%" />
         <div className="title-overlay">
-          <h1>{props.pageTitle}</h1>
+          <h1>Our Founder</h1>
         </div>
       </div>
       <div className="page-links">
@@ -25,12 +25,12 @@ export const Banner = (props) => {
           </li>
         ))}
       </div>
-      <Breadcrumb className="offset-md-1 mt2">
-        <Breadcrumb.Item href="/" className="b-home">
-          Home
+      <Breadcrumb>
+        <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
+        <Breadcrumb.Item href="https://getbootstrap.com/docs/4.0/components/breadcrumb/">
+          Library
         </Breadcrumb.Item>
-        <Breadcrumb.Item>{props.mainpage}</Breadcrumb.Item>
-        <Breadcrumb.Item>{props.currentPage}</Breadcrumb.Item>
+        <Breadcrumb.Item active>Data</Breadcrumb.Item>
       </Breadcrumb>
     </div>
   );

@@ -92,58 +92,25 @@ function Menu({ name, ...props }) {
                   >
                     <ul className="list-unstyled">
                       <li>
-                        <NavLink
-                          to={"/founder"}
-                          activeClassName="active"
-                          className="menu-navs"
-                          onClick={handleClose}
-                        >
+                        <NavLink to={"/founder"} onClick={handleClose}>
                           Our Founder
                         </NavLink>
                       </li>
 
                       <li>
-                        <NavLink
-                          to={"/our-ceo"}
-                          activeClassName="active"
-                          className="menu-navs"
-                          onClick={handleClose}
-                        >
-                          Our CEO
-                        </NavLink>
+                        <NavLink to={"/our-ceo"}>Our CEO</NavLink>
                       </li>
 
                       <li>
-                        <NavLink
-                          to={"/who-we-are"}
-                          activeClassName="active"
-                          className="menu-navs"
-                          onClick={handleClose}
-                        >
-                          Who we are
-                        </NavLink>
+                        <NavLink to={"/who-we-are"}>Who we are</NavLink>
                       </li>
 
                       <li>
-                        <NavLink
-                          to={"/tour"}
-                          activeClassName="active"
-                          className="menu-navs"
-                          onClick={handleClose}
-                        >
-                          Virtual Tour
-                        </NavLink>
+                        <NavLink to={"/tour"}>Virtual Tour</NavLink>
                       </li>
 
                       <li>
-                        <NavLink
-                          to={"/contact"}
-                          activeClassName="active"
-                          className="menu-navs"
-                          onClick={handleClose}
-                        >
-                          Contact us
-                        </NavLink>
+                        <NavLink to={"/contact"}>Contact us</NavLink>
                       </li>
                     </ul>
                   </div>

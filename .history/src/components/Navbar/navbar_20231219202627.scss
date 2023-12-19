@@ -99,7 +99,6 @@
 }
 .active {
   background: green !important;
-  color: #fff !important;
 }
 .menu-navs {
   padding: 10px 10px;
@@ -111,6 +110,6 @@
 
   &:hover {
     background: green;
-    color: #fff !important;
+    color: #fff;
   }
 }

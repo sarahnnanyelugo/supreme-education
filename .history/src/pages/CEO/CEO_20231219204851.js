@@ -1,20 +1,20 @@
 import React from "react";
 import { Banner } from "../../components/Banner/Banner";
-import LandingImg from "../../assets/images/banner.png";
-import FounderImg from "../../assets/images/founder.png";
+import LandingImg from "../../assets/images/ceo-landing.png";
+import FounderImg from "../../assets/images/ceo.png";
 import Img6 from "../../assets/images/play.png";
 import Img7 from "../../assets/images/tour.png";
 import { about } from "../../TestData";
-import "./founder.scss";
-export const Founder = () => {
+import "./ceo.scss";
+export const CEO = () => {
   return (
     <div className="founder-div">
       <Banner
-        pageTitle="Our Founder"
+        pageTitle="OUR CEO"
         banner={LandingImg}
         links={about}
         mainpage="About Us"
-        currentPage="OUR FOUNDER"
+        currentPage="OUR CEO"
       />
       <div className="flexy  col-md-10 offset-md-1">
         <div className="col-md-7 mt7" style={{ lineHeight: "35px" }}>
@@ -71,7 +71,7 @@ export const Founder = () => {
           <img src={FounderImg} alt="pic" width="100%" />
           <center>
             <h5 className="mt1">
-              <strong>MRS. A.A ADOMOLEKUN</strong>
+              <strong>ADEWUYI OLUBUKOLA</strong>
             </h5>
           </center>
         </div>
