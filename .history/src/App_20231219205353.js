@@ -8,7 +8,7 @@ import ScrollToTop from "./components/scrollToTop";
 import Footer from "./components/Footer/Footer";
 import { Founder } from "./pages/Founder/Founder";
 import { CEO } from "./pages/CEO/CEO";
-import { WhoWeAre } from "./pages/WhoWeAre/WhoWeAre.js";
+import { WhoWeAre } from "./pages/WhoWeAre/WhoWeArejs";
 function App() {
   return (
     <>
