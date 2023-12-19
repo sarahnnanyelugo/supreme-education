@@ -110,8 +110,8 @@ export default function Footer() {
             Contact us
           </Link>
         </div>
-        <div className="offset-md-2 flexy flexyM">
-          <p style={{ marginTop: "10px", marginRight: "5px" }}>Powered by</p>{" "}
+        <div className="offset-md-1 flexy flexyM">
+          <p>Powered by</p>{" "}
           <img
             src={Img11}
             alt="icon"

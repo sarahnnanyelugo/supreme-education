@@ -9,9 +9,8 @@ import Img5 from "../../assets/images/send.svg";
 import Img6 from "../../assets/images/private.png";
 import Img7 from "../../assets/images/int.png";
 import Img8 from "../../assets/images/oracle.png";
-import Img9 from "../../assets/images/aisen.png";
-import Img10 from "../../assets/images/british.png";
-import Img11 from "../../assets/images/educare.png";
+import Img9 from "../../assets/images/british.png";
+import Img10 from "../../assets/images/educare.png";
 import "./footer.scss";
 export default function Footer() {
   return (
@@ -83,43 +82,13 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="offset-md-1 col-md-10 flexy partners">
+      <div className="offset-md-1 col-md-10 flexy">
         {" "}
         <img src={Img6} alt="icon" className="" width="82px" height="82px" />
         <img src={Img7} alt="icon" className="" width="139px" height="49px" />
-        <img src={Img8} alt="icon" className="" width="194px" height="92px" />
-        <img src={Img9} alt="icon" className="" width="82px" height="106px" />
-        <img src={Img10} alt="icon" className="" width="103px" height="103px" />
-      </div>
-      <div className="credits flexy">
-        <div className="col-md-3 offset-md-1">
-          <p>© 2023 SEF Schools. All Rights reserved.</p>
-        </div>
-        <div className="col-md-4 flexy flexyM">
-          <Link to={""} className="col-md-3">
-            Privacy Policy
-          </Link>
-          <Link to={""} className="col-md-3 credit-links">
-            Sitemap
-          </Link>
-
-          <Link to={""} className="col-md-3">
-            Careers
-          </Link>
-          <Link to={""} className="col-md-3">
-            Contact us
-          </Link>
-        </div>
-        <div className="offset-md-2 flexy flexyM">
-          <p style={{ marginTop: "10px", marginRight: "5px" }}>Powered by</p>{" "}
-          <img
-            src={Img11}
-            alt="icon"
-            className=""
-            width="114px"
-            height="45px"
-          />
-        </div>
+        <img src={Img8} alt="icon" className="" width="82px" height="82px" />
+        <img src={Img9} alt="icon" className="" />
+        <img src={Img10} alt="icon" className="" />
       </div>
     </footer>
   );

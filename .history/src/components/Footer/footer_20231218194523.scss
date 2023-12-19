@@ -1,15 +1,14 @@
 .footer-actions {
   height: 283px;
   background: url("../../assets/images/building.png");
-  padding-top: 50px;
+  padding-top: 100px;
   color: #fff;
   button {
     margin: 20px;
     color: #fff;
     background-color: transparent;
     border: solid 1px #fff;
-    padding: 10px 24px;
-    border-radius: 4px;
+    padding: 12px 24px;
     &:hover {
       color: #306503;
       background: #fff;
@@ -41,23 +40,4 @@
   ::placeholder {
     color: #fff !important;
   }
-}
-.partners {
-  img {
-    margin: 40px 80px;
-  }
-}
-.credits {
-  p {
-    font-size: 14px;
-  }
-  a {
-    color: #fff;
-    text-decoration: none;
-    border-right: solid 2px #fff;
-    text-align: center;
-  }
-  background: #006011;
-  padding: 20px;
-  color: #fff;
 }

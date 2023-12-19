@@ -42,11 +42,7 @@ export const News = () => {
         >
           X(Twitter)
         </Link>
-        <Link
-          to={"https://www.youtube.com/channel/UCS8z8ciwQSZmxAwTyxk2bOQ"}
-          target="_blank"
-          className="tab2"
-        >
+        <Link to={""} className="tab2">
           Youtube
         </Link>
       </div>

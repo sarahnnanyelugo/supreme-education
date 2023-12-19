@@ -11,7 +11,6 @@ import Img7 from "../../assets/images/int.png";
 import Img8 from "../../assets/images/oracle.png";
 import Img9 from "../../assets/images/aisen.png";
 import Img10 from "../../assets/images/british.png";
-import Img11 from "../../assets/images/educare.png";
 import "./footer.scss";
 export default function Footer() {
   return (
@@ -109,16 +108,6 @@ export default function Footer() {
           <Link to={""} className="col-md-3">
             Contact us
           </Link>
-        </div>
-        <div className="offset-md-2 flexy flexyM">
-          <p style={{ marginTop: "10px", marginRight: "5px" }}>Powered by</p>{" "}
-          <img
-            src={Img11}
-            alt="icon"
-            className=""
-            width="114px"
-            height="45px"
-          />
         </div>
       </div>
     </footer>
