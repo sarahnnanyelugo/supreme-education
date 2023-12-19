@@ -2,16 +2,13 @@ import React from "react";
 import { Banner } from "../../components/Banner/Banner";
 import LandingImg from "../../assets/images/banner.png";
 import FounderImg from "../../assets/images/founder.png";
-import Img6 from "../../assets/images/play.png";
-import Img7 from "../../assets/images/tour.png";
 import { about } from "../../TestData";
-import "./founder.scss";
 export const Founder = () => {
   return (
     <div className="founder-div">
       <Banner banner={LandingImg} links={about} />
       <div className="flexy  col-md-10 offset-md-1">
-        <div className="col-md-7 mt7" style={{ lineHeight: "35px" }}>
+        <div className="col-md-7 mt5" style={{ lineHeight: "35px" }}>
           <p>
             {" "}
             Supreme Education Foundation School started more as a movement than
@@ -61,33 +58,13 @@ export const Founder = () => {
           </p>
           <br />
         </div>
-        <div className="col-md-4 offset-md-1 mt7">
+        <div className="col-md-4 offset-md-1">
           <img src={FounderImg} alt="pic" width="100%" />
           <center>
             <h5>
               <strong>MRS. A.A ADOMOLEKUN</strong>
             </h5>
           </center>
-        </div>
-      </div>
-      <div className="flexy col-md-10 offset-md-1 founder-div">
-        <div className="col-md-6 eyfs">
-          {" "}
-          <img src={Img6} alt="sch-images" width="100%" className="col-md-11" />
-          <div className="overlay">
-            {" "}
-            <h2>Who we are</h2>
-            <button>Learn more</button>
-          </div>
-        </div>
-        <div className="col-md-6 eyfs">
-          {" "}
-          <img src={Img6} alt="sch-images" width="100%" className="col-md-11" />
-          <div className="overlay">
-            {" "}
-            <h2>Take a virtual Tour</h2>
-            <button>Learn more</button>
-          </div>
         </div>
       </div>
     </div>
