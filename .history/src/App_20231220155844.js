@@ -16,7 +16,6 @@ import { Enquiry } from "./pages/Enquiry/Enquiry";
 import { FAQ } from "./pages/FAQ/FAQ";
 import { EYFS } from "./pages/EYFS/EYFS";
 import { JuniorSchool } from "./pages/JuniorSchool/JuniorSchool";
-import { SeniorSchool } from "./pages/SeniorSchool/SeniorSchool";
 function App() {
   return (
     <>
@@ -36,7 +35,6 @@ function App() {
         <Route path="/faq" element={<FAQ />} />
         <Route path="/eyfs" element={<EYFS />} />
         <Route path="/junior-school" element={<JuniorSchool />} />
-        <Route path="/high-school" element={<SeniorSchool />} />
       </Routes>
       <Footer />
     </>

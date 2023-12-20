@@ -36,7 +36,7 @@ function App() {
         <Route path="/faq" element={<FAQ />} />
         <Route path="/eyfs" element={<EYFS />} />
         <Route path="/junior-school" element={<JuniorSchool />} />
-        <Route path="/high-school" element={<SeniorSchool />} />
+        <Route path="/highr-school" element={<SeniorSchool />} />
       </Routes>
       <Footer />
     </>
