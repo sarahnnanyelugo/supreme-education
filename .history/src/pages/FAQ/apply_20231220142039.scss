@@ -1,0 +1,40 @@
+.apply-div {
+  margin-bottom: 100px;
+  margin-top: 100px;
+  .accordion-button::after {
+    background-image: url("../../assets/images/plus.svg") !important;
+    content: "" !important;
+    background-position: center;
+    background-size: 100%;
+    height: 20px;
+    width: 20px;
+  }
+  .accordion-button:not(.collapsed)::after {
+    background-image: url("../../assets/images/minus.svg") !important;
+
+    content: "" !important;
+  }
+  .accordion-button {
+    font-size: 18px !important;
+  }
+  .accordion-button:focus {
+    background: #fff !important;
+    color: #006011 !important;
+    border: none !important;
+  }
+  .accordion-body {
+    p {
+      font-size: 15px !important;
+      color: #161617;
+    }
+  }
+  .accordion-item {
+    border-top: none !important;
+  }
+  .accordion-item:first-of-type .accordion-button {
+    border-radius: 0 !important;
+  }
+  .accordion-item:first-of-type .accordion-button {
+    border-radius: 0 !important;
+  }
+}

@@ -7,7 +7,7 @@ import Img6 from "../../assets/images/play.png";
 import Img7 from "../../assets/images/tour.png";
 import { about } from "../../TestData";
 import "./apply.scss";
-export const Enquiry = () => {
+export const FAQ = () => {
   return (
     <div className="apply-div">
       <Banner
