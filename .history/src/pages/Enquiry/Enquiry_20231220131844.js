@@ -6,11 +6,11 @@ import { admissions } from "../../TestData";
 import { LinkRounded } from "@material-ui/icons";
 import { Link } from "react-router-dom";
 import "./apply.scss";
-export const Apply = () => {
+export const Enquiry = () => {
   return (
     <div className="apply-div">
       <Banner
-        pageTitle="How to Apply"
+        pageTitle="Enquiry"
         banner={LandingImg}
         links={admissions}
         mainpage="Admissions"

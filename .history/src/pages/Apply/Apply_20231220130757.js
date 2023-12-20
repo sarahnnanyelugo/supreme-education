@@ -94,7 +94,7 @@ export const Apply = () => {
         <div className="col-md-4">
           <div className="info-div4">
             <h4>Supreme Exam Dates</h4>
-            <ul className="list-unstyled">
+            <ul>
               <li>
                 {" "}
                 <img src={Dot} height="10px" width="10px" alt="icon" />
@@ -142,8 +142,8 @@ export const Apply = () => {
           <div className="info-div6 mt4 col-md-10 offset-md-1">
             <h4>Overseas Students</h4>
             <p>
-              For further enquiries, please call <a href="#">08112390403</a>,
-              <a href="#">08182984015</a> or <a href="#">08112390396</a>
+              For further enquiries, please call 08112390403, 08182984015 or
+              08112390396
             </p>
             <p>Medical Reports ONLY from</p>
           </div>

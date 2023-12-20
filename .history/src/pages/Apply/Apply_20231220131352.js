@@ -143,7 +143,7 @@ export const Apply = () => {
             <h4>Overseas Students</h4>
             <p>
               For further enquiries, please call <a href="#">08112390403</a>,
-              <a href="#">08182984015</a> or <a href="#">08112390396</a>
+              08182984015 or 08112390396
             </p>
             <p>Medical Reports ONLY from</p>
           </div>

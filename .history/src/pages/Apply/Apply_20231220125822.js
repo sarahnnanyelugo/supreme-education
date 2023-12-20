@@ -1,7 +1,6 @@
 import React from "react";
 import { Banner } from "../../components/Banner/Banner";
 import LandingImg from "../../assets/images/apply.png";
-import Dot from "../../assets/images/dot.svg";
 import { admissions } from "../../TestData";
 import { LinkRounded } from "@material-ui/icons";
 import { Link } from "react-router-dom";
@@ -94,23 +93,16 @@ export const Apply = () => {
         <div className="col-md-4">
           <div className="info-div4">
             <h4>Supreme Exam Dates</h4>
-            <ul className="list-unstyled">
+            <ul>
               <li>
-                {" "}
-                <img src={Dot} height="10px" width="10px" alt="icon" />
                 Scholarship Entrance Examination into Year 7 (Saturday 9th
                 March, 2024)
               </li>
               <li>
-                <img src={Dot} height="10px" width="10px" alt="icon" />{" "}
                 Supplementary Entrance Examination into Year 7 (Saturday 11th
                 May, 2024)
               </li>
-              <li>
-                {" "}
-                <img src={Dot} height="10px" width="10px" alt="icon" /> Transfer
-                Examination to other Classes (July, 2024)
-              </li>
+              <li>Transfer Examination to other Classes (July, 2024)</li>
             </ul>
           </div>{" "}
           <div className="info-div4 mt4">
@@ -122,30 +114,20 @@ export const Apply = () => {
             </p>
             <p>Admissions Forms can also be completed on-line on</p>
             <p>
-              <Link to={""} style={{ color: "#d33" }}>
-                {" "}
-                www.supremeeducation.com
-              </Link>
+              <Link to={""}> www.supremeeducation.com</Link>
             </p>
           </div>
-          <div className="info-div5 mt4 col-md-10 offset-md-1">
-            <p>
-              Kindly note that it is of importance that the current school gives
-              Reference Letter.
-            </p>
-            <br />
-            <p>
-              Medical Reports ONLY from the school's recognised health
-              facilities are also accepted.
-            </p>
-          </div>{" "}
-          <div className="info-div6 mt4 col-md-10 offset-md-1">
+          <div className="info-div4 mt4">
             <h4>Overseas Students</h4>
             <p>
-              For further enquiries, please call <a href="#">08112390403</a>,
-              <a href="#">08182984015</a> or <a href="#">08112390396</a>
+              Parents who live outside Nigeria are welcome to apply for
+              admission for their children. We can schedule and administer
+              entrance tests through the applicant’s current school.
             </p>
-            <p>Medical Reports ONLY from</p>
+            <p>Admissions Forms can also be completed on-line on</p>
+            <p>
+              <Link to={""}> www.supremeeducation.com</Link>
+            </p>
           </div>
         </div>
       </div>

@@ -6,7 +6,7 @@ import { admissions } from "../../TestData";
 import { LinkRounded } from "@material-ui/icons";
 import { Link } from "react-router-dom";
 import "./apply.scss";
-export const Apply = () => {
+export const Enquiry = () => {
   return (
     <div className="apply-div">
       <Banner
