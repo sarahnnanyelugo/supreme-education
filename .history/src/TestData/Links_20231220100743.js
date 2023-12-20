@@ -21,11 +21,10 @@ export const academics = [
   { to: "/school-curriculum", text: "School Curriculum" },
 ];
 export const studentLife = [
-  { to: "/boarding-school", text: "Boarding School" },
-  { to: "/activities", text: "Co-curricular Activities" },
-  { to: "/facilities", text: "Facilities" },
-];
-export const Media = [
-  { to: "/news", text: "News & Events" },
-  { to: "/gallery", text: "Gallery" },
+  { to: "/eyfs", text: "Boarding School" },
+  { to: "/junior-school", text: "Junior School" },
+  { to: "/high-school", text: "High School" },
+  { to: "/teachers-college", text: "Teachers College" },
+  { to: "/academic-calendar", text: "Academic Calendar" },
+  { to: "/school-curriculum", text: "School Curriculum" },
 ];

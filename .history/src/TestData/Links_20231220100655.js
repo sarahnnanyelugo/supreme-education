@@ -12,20 +12,11 @@ export const admissions = [
   { to: "/enquiry", text: "Enquiry" },
   { to: "/faq", text: "FAQs" },
 ];
-export const academics = [
+export const Academics = [
   { to: "/eyfs", text: "EYFS" },
   { to: "/junior-school", text: "Junior School" },
   { to: "/high-school", text: "High School" },
   { to: "/teachers-college", text: "Teachers College" },
   { to: "/academic-calendar", text: "Academic Calendar" },
   { to: "/school-curriculum", text: "School Curriculum" },
-];
-export const studentLife = [
-  { to: "/boarding-school", text: "Boarding School" },
-  { to: "/activities", text: "Co-curricular Activities" },
-  { to: "/facilities", text: "Facilities" },
-];
-export const Media = [
-  { to: "/news", text: "News & Events" },
-  { to: "/gallery", text: "Gallery" },
 ];

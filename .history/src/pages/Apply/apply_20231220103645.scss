@@ -1,0 +1,31 @@
+.apply-div {
+  margin-bottom: 100px;
+  margin-top: 100px;
+  ma h1 {
+    font-size: 72px;
+    @media screen and (max-width: 620px) {
+      font-size: 32px;
+    }
+  }
+  p {
+    line-height: 36px;
+  }
+  .info-corner {
+    border-radius: 8px;
+    border: 1px solid #ececec;
+    padding: 10px 32px;
+  }
+  h6 {
+    margin-top: 30px;
+  }
+  ul li {
+    font-size: 18px;
+  }
+  a {
+    color: .info-corner {
+      border-radius: 8px;
+      border: 1px solid #b92121;
+      padding: 16px 32px;
+    }
+  }
+}

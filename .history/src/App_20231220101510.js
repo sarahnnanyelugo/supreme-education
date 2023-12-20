@@ -11,7 +11,6 @@ import { CEO } from "./pages/CEO/CEO";
 import { WhoWeAre } from "./pages/WhoWeAre/WhoWeAre.js";
 import { Tour } from "./pages/Tour/Tour";
 import { Contact } from "./pages/Contact/Contact";
-import { Apply } from "./pages/Apply/Apply";
 function App() {
   return (
     <>

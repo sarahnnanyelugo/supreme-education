@@ -6,7 +6,7 @@ import MenuImg1 from "../../assets/images/menu-img1.png";
 import MenuImg2 from "../../assets/images/menu-img2.png";
 import MenuImg3 from "../../assets/images/menu-img3.png";
 import { NavLink } from "react-router-dom";
-import { about, admissions } from "../../TestData";
+import { about } from "../../TestData";
 function Menu({ name, ...props }) {
   const [show, setShow] = useState(false);
 
@@ -91,7 +91,17 @@ function Menu({ name, ...props }) {
                     }`}
                   >
                     <ul className="list-unstyled">
-                      {about.map((link, index) => (
+                      {/* <li>
+                        <NavLink
+                          to={"/founder"}
+                          activeClassName="active"
+                          className="menu-navs"
+                          onClick={handleClose}
+                        >
+                          Our Founder
+                        </NavLink>
+                      </li> */}
+                      {/* {about.map((link, index) => (
                         <li key={index} className="list-unstyled">
                           <NavLink
                             to={link.to}
@@ -102,7 +112,50 @@ function Menu({ name, ...props }) {
                             {link.text}
                           </NavLink>
                         </li>
-                      ))}
+                      ))} */}
+                      {/* <li>
+                        <NavLink
+                          to={"/our-ceo"}
+                          activeClassName="active"
+                          className="menu-navs"
+                          onClick={handleClose}
+                        >
+                          Our CEO
+                        </NavLink>
+                      </li> */}
+
+                      {/* <li>
+                        <NavLink
+                          to={"/who-we-are"}
+                          activeClassName="active"
+                          className="menu-navs"
+                          onClick={handleClose}
+                        >
+                          Who we are
+                        </NavLink>
+                      </li> */}
+
+                      {/* <li>
+                        <NavLink
+                          to={"/tour"}
+                          activeClassName="active"
+                          className="menu-navs"
+                          onClick={handleClose}
+                        >
+                          Virtual Tour
+                        </NavLink>
+                      </li> */}
+
+                      {/* <li>
+                        <NavLink
+                          to={"/contact"}
+                          activeClassName="active"
+                          className="menu-navs"
+                          onClick={handleClose}
+                        >
+                          Contact us
+                        </NavLink>
+                      </li> */}
                     </ul>
                   </div>
                   <div
@@ -111,20 +164,8 @@ function Menu({ name, ...props }) {
                       activeTab === "Admissions" ? "active2" : ""
                     }`}
                   >
-                    <ul className="list-unstyled">
-                      {admissions.map((link, index) => (
-                        <li key={index} className="list-unstyled">
-                          <NavLink
-                            to={link.to}
-                            activeClassName="active"
-                            className="menu-navs"
-                            onClick={handleClose}
-                          >
-                            {link.text}
-                          </NavLink>
-                        </li>
-                      ))}
-                    </ul>
+                    <h3>Paris</h3>
+                    <p>Paris is the capital of France.</p>
                   </div>
                   <div
                     id="Academics"

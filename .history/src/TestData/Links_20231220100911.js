@@ -25,7 +25,8 @@ export const studentLife = [
   { to: "/activities", text: "Co-curricular Activities" },
   { to: "/facilities", text: "Facilities" },
 ];
-export const Media = [
-  { to: "/news", text: "News & Events" },
-  { to: "/gallery", text: "Gallery" },
+export const studentLife = [
+  { to: "/boarding-school", text: "Boarding School" },
+  { to: "/activities", text: "Co-curricular Activities" },
+  { to: "/facilities", text: "Facilities" },
 ];
