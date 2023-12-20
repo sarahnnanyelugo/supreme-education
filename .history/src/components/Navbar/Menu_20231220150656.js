@@ -6,13 +6,7 @@ import MenuImg1 from "../../assets/images/menu-img1.png";
 import MenuImg2 from "../../assets/images/menu-img2.png";
 import MenuImg3 from "../../assets/images/menu-img3.png";
 import { NavLink } from "react-router-dom";
-import {
-  about,
-  admissions,
-  academics,
-  studentLife,
-  media,
-} from "../../TestData";
+import { about, admissions, academics, life, media } from "../../TestData";
 function Menu({ name, ...props }) {
   const [show, setShow] = useState(false);
 
@@ -160,7 +154,7 @@ function Menu({ name, ...props }) {
                     }`}
                   >
                     <ul className="list-unstyled">
-                      {studentLife.map((link, index) => (
+                      {life.map((link, index) => (
                         <li key={index} className="list-unstyled">
                           <NavLink
                             to={link.to}
