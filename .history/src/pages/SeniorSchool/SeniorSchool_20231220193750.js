@@ -8,7 +8,7 @@ import Img4 from "../../assets/images/yusuf.png";
 import Dot from "../../assets/images/dot2.png";
 import { academicss } from "../../TestData";
 import { Link } from "react-router-dom";
-import Slider1 from "../../assets/images/uni1.png";
+import Img6 from "../../assets/images/play.png";
 import Img7 from "../../assets/images/tour.png";
 import { academics } from "../../TestData";
 import "./senior.scss";
@@ -184,8 +184,15 @@ export const SeniorSchool = () => {
           <Carousel.Item>
             <img src={Slider1} alt="sch-images" width="100%" />
           </Carousel.Item>
-          <Carousel.Item>2</Carousel.Item>
-          <Carousel.Item>3</Carousel.Item>{" "}
+          <Carousel.Item>
+            <img src={Slider2} alt="sch-images" width="100%" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img src={Slider3} alt="sch-images" width="100%" />
+          </Carousel.Item>{" "}
+          <Carousel.Item>
+            <img src={Slider4} alt="sch-images" width="100%" />
+          </Carousel.Item>{" "}
         </Carousel>
       </div>
     </div>

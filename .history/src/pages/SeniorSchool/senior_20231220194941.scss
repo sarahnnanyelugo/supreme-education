@@ -23,13 +23,14 @@
 }
 .uni-images {
   .carousel-control-next-icon {
-    background-image: url("../../assets/images/next2.png");
+    background-image: url("../../assets/images/next2.svg");
     // margin-top: 600px !important;
     position: relative !important;
-    height: 56px !important;
-    width: 56px !important;
+    height: 36px !important;
+    background: red;
+    width: 36px !important;
     opacity: 1 !important;
-    margin-right: -250% !important;
+    margin-left: 0% !important;
     @media screen and (max-width: 620px) {
       margin-top: 70px !important;
       margin-left: -750% !important;
@@ -37,11 +38,13 @@
   }
 
   .carousel-control-prev-icon {
-    background-image: url("../../assets/images/prev2.png");
-
-    height: 56px !important;
-    width: 56px !important;
-    margin-left: -250% !important;
+    background-image: url("../../assets/images/prev2.svg");
+    // margin-top: 600px !important;
+    // transform: rotate(180deg);
+    background: red;
+    height: 36px !important;
+    width: 36px !important;
+    margin-right: -80% !important;
     opacity: 1 !important;
     @media screen and (max-width: 620px) {
       margin-top: 70px !important;

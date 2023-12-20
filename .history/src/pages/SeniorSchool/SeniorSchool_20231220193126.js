@@ -8,12 +8,10 @@ import Img4 from "../../assets/images/yusuf.png";
 import Dot from "../../assets/images/dot2.png";
 import { academicss } from "../../TestData";
 import { Link } from "react-router-dom";
-import Slider1 from "../../assets/images/uni1.png";
+import Img6 from "../../assets/images/play.png";
 import Img7 from "../../assets/images/tour.png";
 import { academics } from "../../TestData";
 import "./senior.scss";
-import Carousel from "react-bootstrap/Carousel";
-
 export const SeniorSchool = () => {
   return (
     <div className="senior-div">
@@ -170,7 +168,7 @@ export const SeniorSchool = () => {
         </div>
       </div>{" "}
       <center>
-        <div className="col-md-5 mt">
+        <div className="col-md-4">
           <h1>University Destinations</h1>
 
           <p>
@@ -179,15 +177,6 @@ export const SeniorSchool = () => {
           </p>
         </div>{" "}
       </center>
-      <div className="uni-images col-md-10 offset-md-1">
-        <Carousel fade>
-          <Carousel.Item>
-            <img src={Slider1} alt="sch-images" width="100%" />
-          </Carousel.Item>
-          <Carousel.Item>2</Carousel.Item>
-          <Carousel.Item>3</Carousel.Item>{" "}
-        </Carousel>
-      </div>
     </div>
   );
 };
