@@ -19,7 +19,6 @@ import { JuniorSchool } from "./pages/JuniorSchool/JuniorSchool";
 import { SeniorSchool } from "./pages/SeniorSchool/SeniorSchool";
 import { TeachersCollege } from "./pages/TeachersCollege/TeachersCollege";
 import { SchoolCurriculum } from "./pages/SchoolCurriculum/SchoolCurriculum";
-import { AcademicCalendar } from "./pages/AcademicCalendar/AcademicCalendar";
 function App() {
   return (
     <>
@@ -42,7 +41,6 @@ function App() {
         <Route path="/high-school" element={<SeniorSchool />} />
         <Route path="/teachers-college" element={<TeachersCollege />} />
         <Route path="/school-curriculum" element={<SchoolCurriculum />} />
-        <Route path="/academic-calendar" element={<AcademicCalendar />} />
       </Routes>
       <Footer />
     </>

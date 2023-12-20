@@ -1,0 +1,36 @@
+.eyfs-div {
+  margin-bottom: 100px;
+  margin-top: 100px;
+
+  .card {
+    padding: 20px 0px;
+    h6 {
+      color: #434547;
+      font-size: 14px;
+      font-family: ralewayR;
+    }
+    .left {
+      padding-left: 10px;
+    }
+    input {
+      border-radius: 8px;
+      border: 1px solid #cbd5e1;
+      background: #fff;
+      margin-left: 10px;
+      padding: 7px 14px;
+      box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    }
+  }
+  button {
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+    background: #fff;
+    padding: 7px 14px;
+    font-size: 14px;
+    color: #434547;
+
+    img {
+      margin-right: 10px;
+    }
+  }
+}
