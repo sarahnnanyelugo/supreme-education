@@ -24,7 +24,6 @@ import { BoardingSchool } from "./pages/BoardingSchool/BoardingSchool";
 import { Activities } from "./pages/Activities/Activities";
 import { Facilities } from "./pages/Facilities/Facilities";
 import { News } from "./pages/News/News";
-import { NewsMain } from "./pages/News/NewsMain";
 function App() {
   return (
     <>
@@ -52,7 +51,6 @@ function App() {
         <Route path="/activities" element={<Activities />} />
         <Route path="/facilities" element={<Facilities />} />
         <Route path="/news" element={<News />} />
-        <Route path="/main-news" element={<NewsMain />} />
       </Routes>
       <Footer />
     </>
