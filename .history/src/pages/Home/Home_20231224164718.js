@@ -100,7 +100,7 @@ export const Home = () => {
           {" "}
           <img src={Img1} alt="sch-images" className="wd" />
         </div>
-        <div className="col-md-6 mvt">
+        <div className="col-md-6 mt">
           {" "}
           <img src={Img2} alt="sch-images" width="100%" className="" />
         </div>
@@ -203,7 +203,7 @@ export const Home = () => {
             <h1>Explore all Supreme facilities</h1>
           </div>
         </div>
-        <div className="col-md-4 mvt">
+        <div className="col-md-4">
           <div className="facs col-md-12">
             {" "}
             <img
@@ -238,7 +238,7 @@ export const Home = () => {
               src={Img10}
               alt="sch-images"
               width="100%"
-              className="col-md-11mvt"
+              className="col-md-11"
             />{" "}
             <div className="overlay2">
               <h1>Medical</h1>

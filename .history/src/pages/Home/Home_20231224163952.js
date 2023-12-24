@@ -100,9 +100,9 @@ export const Home = () => {
           {" "}
           <img src={Img1} alt="sch-images" className="wd" />
         </div>
-        <div className="col-md-6 mvt">
+        <div className="col-md-6 ">
           {" "}
-          <img src={Img2} alt="sch-images" width="100%" className="" />
+          <img src={Img2} alt="sch-images" width="100%" />
         </div>
       </div>
       <div className="col-md-8 offset-md-2 flexy mt6">
@@ -111,11 +111,11 @@ export const Home = () => {
           {" "}
           <img src={Img3} alt="sch-images" width="100%" className="col-md-11" />
         </div>
-        <div className="col-md-4 mvt">
+        <div className="col-md-4">
           {" "}
           <img src={Img4} alt="sch-images" width="100%" className="col-md-11" />
         </div>
-        <div className="col-md-4 mvt">
+        <div className="col-md-4">
           {" "}
           <img src={Img5} alt="sch-images" width="100%" className="col-md-11" />
         </div>
@@ -153,7 +153,7 @@ export const Home = () => {
           </div>
         </div>
         <div className="flexy col-md-9 offset-md-2 mt5">
-          <div className="col-md-6  eyfs mvt">
+          <div className="col-md-6  eyfs">
             {" "}
             <img
               src={Img7}
@@ -173,7 +173,7 @@ export const Home = () => {
               <button>Learn more</button>
             </div>
           </div>{" "}
-          <div className="col-md-6  eyfs mvt">
+          <div className="col-md-6  eyfs">
             {" "}
             <img
               src={Img8}
@@ -203,7 +203,7 @@ export const Home = () => {
             <h1>Explore all Supreme facilities</h1>
           </div>
         </div>
-        <div className="col-md-4 mvt">
+        <div className="col-md-4">
           <div className="facs col-md-12">
             {" "}
             <img
@@ -238,7 +238,7 @@ export const Home = () => {
               src={Img10}
               alt="sch-images"
               width="100%"
-              className="col-md-11mvt"
+              className="col-md-11"
             />{" "}
             <div className="overlay2">
               <h1>Medical</h1>

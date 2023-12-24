@@ -42,14 +42,8 @@ button {
   color: #fff;
   border: none;
 }
-.mvt {
+.mt {
   @media screen and (max-width: 620px) {
-    margin-top: 50px;
-  }
-}
-.wd {
-  width: 97%;
-  @media screen and (max-width: 620px) {
-    width: 100%;
+    margin-top: 10px;
   }
 }

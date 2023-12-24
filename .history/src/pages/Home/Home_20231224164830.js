@@ -238,7 +238,7 @@ export const Home = () => {
               src={Img10}
               alt="sch-images"
               width="100%"
-              className="col-md-11mvt"
+              className="col-md-11"
             />{" "}
             <div className="overlay2">
               <h1>Medical</h1>
