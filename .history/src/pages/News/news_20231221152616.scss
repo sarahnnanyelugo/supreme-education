@@ -1,0 +1,37 @@
+.news-div {
+  margin-bottom: 100px;
+  margin-top: 100px;
+
+  p {
+    text-align: justify;
+  }
+  img {
+    border-radius: 8px;
+  }
+  .left {
+    padding-left: 20px;
+  }
+  .right {
+    padding-right: 20px;
+  }
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.main-news {
+  padding-top: 10px;
+  .small-logo {
+    flex-grow: 1;
+  }
+  a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: ralewayR;
+  }
+  ul {
+    margin-right: 60px;
+  }
+}
