@@ -1,0 +1,57 @@
+.founder-div {
+  margin-bottom: 100px;
+  margin-top: 100px;
+
+  ma h1 {
+    font-size: 72px;
+    @media screen and (max-width: 620px) {
+      font-size: 32px;
+    }
+  }
+  p {
+    line-height: 36px;
+  }
+  .eyfs {
+    position: relative;
+    img {
+      border-radius: 8px;
+    }
+    // padding-top: 350px;
+    // border-radius: 18px;
+    // background: url("../../assets/images/eyfs.png");
+    // background-repeat: no-repeat;
+    // background-position: center center;
+    // background-size: contain;
+  }
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.1); /* Black see-through */
+    color: #f1f1f1;
+    width: 92%;
+    transition: 0.5s ease;
+    opacity: 1;
+    height: 17%;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+
+    overflow: hidden;
+    border-radius: 8px;
+    @media screen and (max-width: 620px) {
+      width: 100%;
+    }
+    h1 {
+      font-size: 40px;
+    }
+    button {
+      padding: 12px, 24px, 12px, 24px;
+      border-radius: 4px;
+      gap: 8px;
+      background: transparent;
+      color: #fff;
+      border: solid 1px #fff;
+    }
+  }
+}
