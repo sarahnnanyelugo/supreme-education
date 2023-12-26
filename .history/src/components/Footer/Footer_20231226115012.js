@@ -15,15 +15,15 @@ import Img11 from "../../assets/images/educare.png";
 import "./footer.scss";
 export default function Footer() {
   return (
-    <footer className="footer-body">
+    <footer>
       <div className="flexy ">
         <div className="col-md-5 flexy ">
           {" "}
-          <div className="col-md-6 ">
+          <div className="col-md-6">
             {" "}
             <center>
               <Link to={"/"}>
-                <img src={Logo} alt="icon" className="col-4 col-md-8" />
+                <img src={Logo} alt="icon" className="" />
               </Link>
             </center>
           </div>

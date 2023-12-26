@@ -33,24 +33,22 @@ export const News = () => {
         >
           Instagram
         </button>
-        <button to={""} className="tab2">
-          <a
-            href="https://twitter.com/i/flow/login?redirect_after_login=%2Fiamsupremesch"
-            target="_blank"
-          >
-            {" "}
-            X(Twitter)
-          </a>
+        <button
+          to={
+            "https://twitter.com/i/flow/login?redirect_after_login=%2Fiamsupremesch"
+          }
+          target="_blank"
+          className="tab2"
+        >
+          X(Twitter)
         </button>
-        <button className="tab2">
-          <a
-            href="https://www.youtube.com/channel/UCS8z8ciwQSZmxAwTyxk2bOQ"
-            target="_blank"
-          >
-            {" "}
-            Youtube
-          </a>
-        </button>
+        <Link
+          to={"https://www.youtube.com/channel/UCS8z8ciwQSZmxAwTyxk2bOQ"}
+          target="_blank"
+          className="tab2"
+        >
+          Youtube
+        </Link>
       </div>
       <div className="panels col-md-10 offset-md-1">
         <div className={`panel ${checkActive(1, "active3")}`}>
@@ -59,7 +57,7 @@ export const News = () => {
             <div className="col-md-6 tab-overlay">
               {" "}
               <img src={Img1} alt="sch-images" width="100%" />
-              <div className="overlayed offset-md-1 col-md-10  flexy flexyM">
+              <div className="overlayed offset-md-1 col-md-10  flexy">
                 <p className="col-md-10">
                   2022 Supreme Education Foundation Scholarship Entrance
                   Examination into Year 7
@@ -73,7 +71,7 @@ export const News = () => {
                 />
               </div>
             </div>{" "}
-            <div className="col-md-6 tab-overlay mvt">
+            <div className="col-md-6 tab-overlay">
               {" "}
               <img src={Img2} alt="sch-images" width="100%" />
               <div className="overlayed offset-md-1 col-md-10 flexy flexyM">

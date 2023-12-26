@@ -232,7 +232,7 @@ export const Home = () => {
           </div>
         </div>{" "}
         <div className="col-md-4">
-          <div className="facs col-md-12 mvt">
+          <div className="facs col-md-12mvt">
             {" "}
             <img
               src={Img10}

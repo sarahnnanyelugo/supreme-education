@@ -1,18 +1,8 @@
-.footer-body {
-  @media screen and (max-width: 620px) {
-    background: rgb(245, 243, 243);
-    padding-top: 30px;
-  }
-}
-
 .footer-actions {
   height: 283px;
   background: url("../../assets/images/building.png");
   padding-top: 50px;
   color: #fff;
-  @media screen and (max-width: 620px) {
-    padding: 50px 10px;
-  }
   button {
     margin: 20px;
     color: #fff;
@@ -23,10 +13,6 @@
     &:hover {
       color: #306503;
       background: #fff;
-    }
-    @media screen and (max-width: 620px) {
-      padding: 10px 14px;
-      margin: 20px 10px;
     }
   }
   .send-btn {
@@ -51,9 +37,6 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    @media screen and (max-width: 620px) {
-      width: 300px;
-    }
   }
   ::placeholder {
     color: #fff !important;
@@ -63,9 +46,9 @@
   img {
     margin: 40px 80px;
     @media screen and (max-width: 620px) {
-      height: 50px;
-      width: 50px;
-      margin: 40px 15px;
+      height: 40px;
+      width: 40px;
+      margin: 40px 10px;
     }
   }
 }

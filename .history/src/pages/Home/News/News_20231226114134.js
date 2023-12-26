@@ -59,7 +59,7 @@ export const News = () => {
             <div className="col-md-6 tab-overlay">
               {" "}
               <img src={Img1} alt="sch-images" width="100%" />
-              <div className="overlayed offset-md-1 col-md-10  flexy flexyM">
+              <div className="overlayed offset-md-1 col-md-10  flexy">
                 <p className="col-md-10">
                   2022 Supreme Education Foundation Scholarship Entrance
                   Examination into Year 7

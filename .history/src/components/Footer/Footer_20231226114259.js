@@ -15,15 +15,15 @@ import Img11 from "../../assets/images/educare.png";
 import "./footer.scss";
 export default function Footer() {
   return (
-    <footer className="footer-body">
+    <footer>
       <div className="flexy ">
         <div className="col-md-5 flexy ">
           {" "}
-          <div className="col-md-6 ">
+          <div className="col-md-6">
             {" "}
             <center>
               <Link to={"/"}>
-                <img src={Logo} alt="icon" className="col-4 col-md-8" />
+                <img src={Logo} alt="icon" className="" />
               </Link>
             </center>
           </div>
@@ -59,7 +59,7 @@ export default function Footer() {
             </Link>{" "}
             <Link to={""}>
               {" "}
-              <button className="">
+              <button>
                 Apply <img src={Img4} alt="icon" className="" />
               </button>
             </Link>{" "}
@@ -83,43 +83,13 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="offset-md-1 col-md-10 flexy partners flexyM">
+      <div className="offset-md-1 col-md-10 flexy partners">
         {" "}
-        <img
-          src={Img6}
-          alt="icon"
-          className="icon1"
-          width="82px"
-          height="82px"
-        />
-        <img
-          src={Img7}
-          alt="icon"
-          className="icon2"
-          width="139px"
-          height="49px"
-        />
-        <img
-          src={Img8}
-          alt="icon"
-          className="icon3"
-          width="194px"
-          height="92px"
-        />
-        <img
-          src={Img9}
-          alt="icon"
-          className="icon4"
-          width="82px"
-          height="106px"
-        />
-        <img
-          src={Img10}
-          alt="icon"
-          className="icon5"
-          width="103px"
-          height="103px"
-        />
+        <img src={Img6} alt="icon" className="" width="82px" height="82px" />
+        <img src={Img7} alt="icon" className="" width="139px" height="49px" />
+        <img src={Img8} alt="icon" className="" width="194px" height="92px" />
+        <img src={Img9} alt="icon" className="" width="82px" height="106px" />
+        <img src={Img10} alt="icon" className="" width="103px" height="103px" />
       </div>
       <div className="credits flexy">
         <div className="col-md-3 offset-md-1">

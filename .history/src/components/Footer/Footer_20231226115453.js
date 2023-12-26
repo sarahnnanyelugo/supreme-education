@@ -15,8 +15,8 @@ import Img11 from "../../assets/images/educare.png";
 import "./footer.scss";
 export default function Footer() {
   return (
-    <footer className="footer-body">
-      <div className="flexy ">
+    <footer>
+      <div className="flexy footer-body">
         <div className="col-md-5 flexy ">
           {" "}
           <div className="col-md-6 ">

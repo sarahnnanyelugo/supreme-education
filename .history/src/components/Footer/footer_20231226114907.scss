@@ -1,10 +1,3 @@
-.footer-body {
-  @media screen and (max-width: 620px) {
-    background: rgb(245, 243, 243);
-    padding-top: 30px;
-  }
-}
-
 .footer-actions {
   height: 283px;
   background: url("../../assets/images/building.png");
@@ -23,10 +16,6 @@
     &:hover {
       color: #306503;
       background: #fff;
-    }
-    @media screen and (max-width: 620px) {
-      padding: 10px 14px;
-      margin: 20px 10px;
     }
   }
   .send-btn {
