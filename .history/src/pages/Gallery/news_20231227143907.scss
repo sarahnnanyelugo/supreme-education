@@ -10,15 +10,9 @@
   }
   .left {
     padding-left: 20px;
-    @media screen and (max-width: 620px) {
-      padding-left: 0;
-    }
   }
   .right {
     padding-right: 20px;
-    @media screen and (max-width: 620px) {
-      padding-right: 0;
-    }
   }
   .news-link {
     color: #fff;
@@ -47,10 +41,9 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 12px;
-  grid-row-gap: 22px;
+  grid-row-gap: 5px;
   div {
-    background: red;
-    height: 300px;
+    border: solid 1px red;
   }
 }
 

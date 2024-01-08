@@ -43,7 +43,7 @@ export const News = () => {
               </Link>
             </div>
           </div>{" "}
-          <div className="col-md-6 tab-overlay left mvt">
+          <div className="col-md-6 tab-overlay left">
             {" "}
             <img src={Img2} alt="sch-images" width="100%" />
             <div className="overlayed offset-md-1 col-md-10 ">

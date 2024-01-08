@@ -11,23 +11,23 @@ import Img6 from "../../assets/images/play.png";
 import Img7 from "../../assets/images/tour.png";
 import { media } from "../../TestData";
 import "./news.scss";
-export const News = () => {
+export const Gallery = () => {
   return (
     <div className="news-div">
       <Banner
-        pageTitle="News & Events"
+        pageTitle="Gallery"
         banner={LandingImg}
         links={media}
         mainpage="MEDIA"
       />
-      <div className=" col-md-10 offset-md-1 mt7 inner-page-content ">
+      <div className=" col-md-10 offset-md-1 mt7  inner-page-content">
         <div className="flexy">
           {" "}
           <div className="col-md-6 tab-overlay right">
             {" "}
-            <img src={Img1} alt="sch-images" width="100%" />
+            <img src={Img1} alt="sch-images" className="col-12" />
             <div className="overlayed offset-md-1 col-md-10 ">
-              <Link to={"/main-news"} className=" flexy flexyM  news-link">
+              <Link to={"/main-news"} className=" flexy flexyM news-link">
                 {" "}
                 <p className="col-md-10">
                   2022 Supreme Education Foundation Scholarship Entrance
@@ -45,9 +45,9 @@ export const News = () => {
           </div>{" "}
           <div className="col-md-6 tab-overlay left mvt">
             {" "}
-            <img src={Img2} alt="sch-images" width="100%" />
+            <img src={Img2} alt="sch-images" className="col-12" />
             <div className="overlayed offset-md-1 col-md-10 ">
-              <Link to={"/main-news"} className="flexy flexyM  news-link">
+              <Link to={"/main-news"} className="flexy flexyM news-link">
                 {" "}
                 <p>Supreme Leverage Every Friday by 5:00pm</p>
                 <img
@@ -62,6 +62,25 @@ export const News = () => {
           </div>
         </div>
       </div>
+      <div class="parent mt col-md-10 offset-md-1">
+        <div class="div1"> </div>
+        <div class="div2"> </div>
+        <div class="div3"> </div>
+        <div class="div4"> </div>
+        <div class="div5"> </div>
+        <div class="div6"> </div>
+        <div class="div7"> </div>
+      </div>
+      <svg
+        role="img"
+        aria-label="Jumia Nigeria: Online Shopping for Electronics, Phones &amp; Fashion"
+        viewBox="0 0 172 30"
+        class="ic"
+        width="134"
+        height="30"
+      >
+        <use href="https://www.jumia.com.ng/assets_he/images/i-shop-jumia.9f5451c7.svg#logo"></use>
+      </svg>
     </div>
   );
 };
