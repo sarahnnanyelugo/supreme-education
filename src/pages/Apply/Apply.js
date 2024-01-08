@@ -3,7 +3,7 @@ import { Banner } from "../../components/Banner/Banner";
 import LandingImg from "../../assets/images/apply.png";
 import Dot from "../../assets/images/dot.svg";
 import { admissions } from "../../TestData";
-import { LinkRounded } from "@material-ui/icons";
+// import { LinkRounded } from "@material-ui/icns";
 import { Link } from "react-router-dom";
 import "./apply.scss";
 export const Apply = () => {
