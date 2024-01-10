@@ -3,7 +3,7 @@ import Modal from "react-bootstrap/Modal";
 import Img from "../../assets/images/modal-pic.png";
 import Img2 from "../../assets/images/modal-close.png";
 import "./modal.scss";
-export const PageModal = () => {
+export const PageModal = (props) => {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -13,7 +13,14 @@ export const PageModal = () => {
   }, []);
   return (
     <>
-      <Modal show={show} onHide={handleClose} size="md">
+      <Modal
+        size="md"
+        show={show}
+        onHide={handleClose}
+        {...props}
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
         <div className="">
           {" "}
           <img
