@@ -185,7 +185,7 @@ export const News = () => {
           </div>
           <center className="mt4">
             <Link to={""} className="app-btn ">
-              Follow us on facebook
+              Follow us onfacebook
             </Link>
           </center>
         </div>

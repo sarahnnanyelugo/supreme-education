@@ -183,11 +183,6 @@ export const News = () => {
               </div>{" "}
             </div>
           </div>
-          <center className="mt4">
-            <Link to={""} className="app-btn ">
-              Follow us on facebook
-            </Link>
-          </center>
         </div>
         <div className={`panel ${checkActive(3, "active3")}`}>
           {" "}
@@ -246,9 +241,8 @@ export const News = () => {
               <div className=" mvt card">
                 {" "}
                 <p>
-                  The @supreme_juniorschool annual mental maths competition, now
-                  in its third year, was incredibly interesting, challenging,
-                  and enjoyable. #Supremecares
+                  Photos of several events from previous Inter-House Sports
+                  Competitions over the course of the next few days.
                 </p>
                 <p>
                   , <Link>#iamsupremesch</Link>, <Link>#Bestschoolinlagos</Link>
@@ -262,7 +256,7 @@ export const News = () => {
                   <Link> #learning</Link>,<Link>#eyfsideas</Link>,
                   <Link> #childdevelopment</Link>
                 </p>
-                <div className="flexy flexyM mt3">
+                <div className="flexy flexyM mt8">
                   <Link to={""}>
                     <img
                       src={Img8}
@@ -276,11 +270,6 @@ export const News = () => {
               </div>{" "}
             </div>
           </div>
-          <center className="mt4">
-            <Link to={""} className="app-btn ">
-              Follow us on instagram
-            </Link>
-          </center>
         </div>
       </div>
     </div>

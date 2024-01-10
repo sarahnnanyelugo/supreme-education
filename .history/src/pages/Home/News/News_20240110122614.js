@@ -183,11 +183,6 @@ export const News = () => {
               </div>{" "}
             </div>
           </div>
-          <center className="mt4">
-            <Link to={""} className="app-btn ">
-              Follow us on facebook
-            </Link>
-          </center>
         </div>
         <div className={`panel ${checkActive(3, "active3")}`}>
           {" "}
@@ -276,11 +271,6 @@ export const News = () => {
               </div>{" "}
             </div>
           </div>
-          <center className="mt4">
-            <Link to={""} className="app-btn ">
-              Follow us on instagram
-            </Link>
-          </center>
         </div>
       </div>
     </div>

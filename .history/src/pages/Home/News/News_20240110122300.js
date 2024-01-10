@@ -183,11 +183,6 @@ export const News = () => {
               </div>{" "}
             </div>
           </div>
-          <center className="mt4">
-            <Link to={""} className="app-btn ">
-              Follow us on facebook
-            </Link>
-          </center>
         </div>
         <div className={`panel ${checkActive(3, "active3")}`}>
           {" "}
@@ -195,15 +190,16 @@ export const News = () => {
             {" "}
             <div className=" col">
               {" "}
-              <img src={Img6} alt="sch-images" width="100%" />
+              <img src={Img4} alt="sch-images" width="100%" />
             </div>{" "}
             <div className="col">
               {" "}
               <div className=" mvt card">
                 {" "}
                 <p>
-                  Photos of several events from previous Inter-House Sports
-                  Competitions over the course of the next few days.
+                  Taekwondo Club had their annual promotion and grading ceremony
+                  where children were rewarded for their hard work and
+                  resilience during the academic session .
                 </p>
                 <p>
                   {" "}
@@ -239,20 +235,17 @@ export const News = () => {
             </div>
             <div className="col ">
               {" "}
-              <img src={Img7} alt="sch-images" width="100%" />
+              <img src={Img5} alt="sch-images" width="100%" />
             </div>
             <div className="col">
               {" "}
               <div className=" mvt card">
                 {" "}
+                <p>We had our very own student at Business Morning.</p>
                 <p>
-                  The @supreme_juniorschool annual mental maths competition, now
-                  in its third year, was incredibly interesting, challenging,
-                  and enjoyable. #Supremecares
-                </p>
-                <p>
-                  , <Link>#iamsupremesch</Link>, <Link>#Bestschoolinlagos</Link>
-                  ,<Link> #Bestschoolinnigeria</Link>,{" "}
+                  <Link to={"/"}> #Supremecares</Link>,{" "}
+                  <Link>#iamsupremesch</Link>, <Link>#Bestschoolinlagos</Link>,
+                  <Link> #Bestschoolinnigeria</Link>,{" "}
                   <Link>#Britishcurriculum</Link>,{" "}
                   <Link>#Nigeriancurriculum</Link>, <Link>#Schoolsinlagos</Link>
                   ,<Link> #Schoolsinnigeria</Link>, <Link>#playmatters</Link>,
@@ -262,7 +255,7 @@ export const News = () => {
                   <Link> #learning</Link>,<Link>#eyfsideas</Link>,
                   <Link> #childdevelopment</Link>
                 </p>
-                <div className="flexy flexyM mt3">
+                <div className="flexy flexyM mt8">
                   <Link to={""}>
                     <img
                       src={Img8}
@@ -276,11 +269,6 @@ export const News = () => {
               </div>{" "}
             </div>
           </div>
-          <center className="mt4">
-            <Link to={""} className="app-btn ">
-              Follow us on instagram
-            </Link>
-          </center>
         </div>
       </div>
     </div>
