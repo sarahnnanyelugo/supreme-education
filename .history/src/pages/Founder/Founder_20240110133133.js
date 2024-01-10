@@ -17,7 +17,7 @@ export const Founder = () => {
         currentPage="OUR FOUNDER"
       />
       <div className="flexy  col-md-10 offset-md-1 inner-page-content">
-        <div className="col-md-7 mt3" style={{ lineHeight: "35px" }}>
+        <div className="col-md-7 " style={{ lineHeight: "35px" }}>
           <p>
             {" "}
             Supreme Education Foundation School started more as a movement than

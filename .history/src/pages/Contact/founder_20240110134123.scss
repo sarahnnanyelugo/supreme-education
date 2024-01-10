@@ -70,6 +70,6 @@
 }
 .frame-container {
   height: 500px;
-  overflow-y: scroll;
-  scrollbar-width: none !important;
+  overflow: hidden scroll;
+  scrollbar-width: none;
 }

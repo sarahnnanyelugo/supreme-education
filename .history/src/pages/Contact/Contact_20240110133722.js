@@ -25,17 +25,13 @@ export const Contact = () => {
         <center>
           <h1 className="mt4">SUPREME EDUCATION FOUNDATION SCHOOLS</h1>
         </center>
-        <div className="frame-container">
-          <iframe
-            className="map-frame"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.2296025830005!2d3.3776691106994474!3d6.6183730933481355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b93a84416230b%3A0xc5baa26ec7dcd095!2sSupreme%20Education%20Foundation%20Schools!5e0!3m2!1sen!2sng!4v1703018630440!5m2!1sen!2sng"
-            width="100%"
-            height="700px"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.2296025830005!2d3.3776691106994474!3d6.6183730933481355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b93a84416230b%3A0xc5baa26ec7dcd095!2sSupreme%20Education%20Foundation%20Schools!5e0!3m2!1sen!2sng!4v1703018630440!5m2!1sen!2sng"
+          width="100%"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
       <div className="flexy col-md-10 offset-md-1 mt4  inner-page-content">
         <div className="col-md-4">
