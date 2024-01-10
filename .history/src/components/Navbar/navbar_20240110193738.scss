@@ -14,6 +14,10 @@
   @media screen and (max-width: 620px) {
     padding: 10px 10px;
   }
+  .active {
+    background: green;
+    color: #fff !important;
+  }
 }
 .logo {
   margin-top: -70px;
@@ -176,11 +180,5 @@
   margin-left: 40px;
   @media screen and (max-width: 620px) {
     // margin-left: 0;
-  }
-}
-.subs {
-  .active {
-    background: green;
-    color: #fff !important;
   }
 }

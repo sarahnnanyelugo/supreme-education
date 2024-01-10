@@ -89,7 +89,7 @@ function Menu({ name, ...props }) {
                   ))}
                 </div>
 
-                <div className="col-md-6 subs">
+                <div className="col-md-6">
                   <div
                     id="About Supreme"
                     className={`tabcontent ${

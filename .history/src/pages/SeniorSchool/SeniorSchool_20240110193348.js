@@ -192,7 +192,7 @@ export const SeniorSchool = () => {
           </Carousel.Item>
           <Carousel.Item>
             {" "}
-            <img src={Slider3} alt="sch-images" width="100%" />
+            <img src={Slider2} alt="sch-images" width="100%" />
           </Carousel.Item>{" "}
         </Carousel>
       </div>

@@ -133,7 +133,10 @@
     display: block;
   }
 }
-
+.active {
+  background: green !important;
+  color: #fff !important;
+}
 .menu-navs {
   padding: 10px 10px;
   font-size: 14px;
@@ -176,11 +179,5 @@
   margin-left: 40px;
   @media screen and (max-width: 620px) {
     // margin-left: 0;
-  }
-}
-.subs {
-  .active {
-    background: green;
-    color: #fff !important;
   }
 }
