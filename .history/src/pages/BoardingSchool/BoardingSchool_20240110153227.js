@@ -20,7 +20,7 @@ export const BoardingSchool = () => {
         links={studentLife}
         mainpage="STUDENT LIFE"
       />
-      <div className=" col-md-10 offset-md-1 mt4 inner-page-content">
+      <div className=" col-md-10 offset-md-1 mt3 inner-page-content">
         <div className=" col-md-8">
           <h4>Boarding in Supreme is an amazing School Life Experience</h4>
           <p>

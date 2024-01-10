@@ -30,7 +30,7 @@ import CountUp from "react-countup";
 import "./home.scss";
 import { News } from "./News/News";
 import { Link } from "react-router-dom";
-import { PageModal } from "../../components/Modal/Modal";
+import { Modal, PageModal } from "../../components/Modal/Modal";
 export const Home = () => {
   return (
     <>

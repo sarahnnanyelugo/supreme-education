@@ -12,7 +12,7 @@ export const Banner = (props) => {
           <h1>{props.pageTitle}</h1>
         </div>
       </div>
-      <div className="page-links ">
+      <div className="page-links offset-md-1">
         {props.links.map((link, index) => (
           <li key={index} className="list-unstyled">
             <NavLink
