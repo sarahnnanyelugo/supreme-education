@@ -1,9 +1,7 @@
 .nav-container {
   padding: 10px;
-  padding-bottom: 0;
   background: #fff;
-  position: relative;
-  z-index: 4;
+  margin-top: 100px;
   a {
     color: #000;
     text-decoration: none;
@@ -16,7 +14,7 @@
   }
 }
 .logo {
-  margin-top: -70px;
+  margin-top: -50px;
   position: relative;
   z-index: 4;
   @media screen and (max-width: 620px) {

@@ -1,12 +1,12 @@
 @import "../../shared-styles";
 
 .landing-images {
-  margin-top: -300px;
+  margin-top: -200px;
   @media screen and (max-width: 620px) {
     margin-top: -60px;
   }
   img {
-    height: 100% !important;
+    height: 70% !important;
     width: 100% !important;
   }
   h1 {
@@ -77,10 +77,6 @@
     @media screen and (max-width: 620px) {
       display: none;
     }
-  }
-  .carousel-inner {
-    height: 100% !important;
-    width: 100% !important;
   }
 }
 .welcome-div {
