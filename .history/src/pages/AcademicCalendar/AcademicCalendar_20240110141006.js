@@ -9,7 +9,7 @@ import Dot from "../../assets/images/dot2.png";
 import { Link } from "react-router-dom";
 import Img6 from "../../assets/images/play.png";
 import Img7 from "../../assets/images/tour.png";
-import Calender from "../../assets/images/academic-calender.pdf";
+import Calender from "../../assets/images/academic-calender.png";
 import { academics } from "../../TestData";
 import "./eyfs.scss";
 export const AcademicCalendar = () => {

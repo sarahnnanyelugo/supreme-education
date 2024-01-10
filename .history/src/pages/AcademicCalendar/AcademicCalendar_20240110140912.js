@@ -9,7 +9,6 @@ import Dot from "../../assets/images/dot2.png";
 import { Link } from "react-router-dom";
 import Img6 from "../../assets/images/play.png";
 import Img7 from "../../assets/images/tour.png";
-import Calender from "../../assets/images/academic-calender.pdf";
 import { academics } from "../../TestData";
 import "./eyfs.scss";
 export const AcademicCalendar = () => {
@@ -31,7 +30,7 @@ export const AcademicCalendar = () => {
               </div>
               <div className="col-md-2 offset-md-3 col-4">
                 <a
-                  href={Calender}
+                  href={ExamplePdf}
                   download="Example-PDF-document"
                   target="_blank"
                   rel="noreferrer"

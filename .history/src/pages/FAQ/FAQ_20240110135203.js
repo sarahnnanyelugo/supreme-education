@@ -18,7 +18,7 @@ export const FAQ = () => {
         links={admissions}
         mainpage="Admissions"
       />
-      <div className=" col-md-6 offset-md-1 mt5  inner-page-content">
+      <div className=" col-md-6 offset-md-1 mt3  inner-page-content">
         <Accordion defaultActiveKey="0">
           <Accordion.Item eventKey="0">
             <Accordion.Header>

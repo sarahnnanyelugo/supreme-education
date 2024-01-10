@@ -21,7 +21,7 @@ export const EYFS = () => {
         links={academics}
         mainpage="Academics"
       />
-      <div className=" col-md-10 offset-md-1 mt5 flexy  inner-page-content">
+      <div className=" col-md-10 offset-md-1 mt3 flexy  inner-page-content">
         <div className=" col-md-8">
           <p>
             Our Early Years Foundation Stage is designed for children from three

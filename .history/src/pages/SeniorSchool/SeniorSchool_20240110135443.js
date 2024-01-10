@@ -39,7 +39,7 @@ export const SeniorSchool = () => {
             Our academic programs are organized on a trimester schedule. Our
             students offered subjects such as
           </p>
-          <div className="flexy listed">
+          <div className="flexy">
             <ul className="list-unstyled col-md-3">
               <li>
                 <img height="24px" width="24px" alt="icon" src={Dot} />
