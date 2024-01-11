@@ -132,14 +132,14 @@ export default function Footer() {
           <Link to={""} className="col-md-3">
             Privacy Policy
           </Link>
-          <Link to={"/contact"} className="col-md-3 credit-links">
+          <Link to={""} className="col-md-3 credit-links">
             Sitemap
           </Link>
 
           <Link to={""} className="col-md-3">
             Careers
           </Link>
-          <Link to={"/contact"} className="col-md-3">
+          <Link to={""} className="col-md-3">
             Contact us
           </Link>
         </div>

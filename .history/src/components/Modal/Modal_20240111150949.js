@@ -28,17 +28,14 @@ export const PageModal = (props) => {
             alt="icon"
             width="40px"
             onClick={handleClose}
-            className="offset-md-10 closed-mod"
+            className="offset-md-11 closed-mod"
           />
         </div>
         <Modal.Body>
           {" "}
-          <center>
-            {" "}
-            <img src={Img} alt="icon" width="85%" />
-          </center>
+          <img src={Img} alt="icon" width="100%" />
         </Modal.Body>
-      </Modal>
+    
     </>
   );
 };

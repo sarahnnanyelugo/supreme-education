@@ -140,9 +140,7 @@ export const Home = () => {
               </p>
               <Link to={"/eyfs"}>
                 {" "}
-                <button>
-                  Learn more <i class="icofont-long-arrow-right"></i>
-                </button>
+                <button>Learn more</button>
               </Link>
             </div>
           </div>
@@ -167,9 +165,7 @@ export const Home = () => {
               </p>
               <Link to={"junior-school"}>
                 {" "}
-                <button>
-                  Learn more <i class="icofont-long-arrow-right"></i>
-                </button>
+                <button>Learn more</button>
               </Link>
             </div>
           </div>{" "}
@@ -190,10 +186,8 @@ export const Home = () => {
                 accross various domains-physical, social, emotional and
                 cognitive.
               </p>
-              <Link to={"high-school"}>
-                <button>
-                  Learn more <i class="icofont-long-arrow-right"></i>
-                </button>
+              <Link to={"senior-school"}>
+                <button>Learn more</button>
               </Link>
             </div>
           </div>

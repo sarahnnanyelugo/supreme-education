@@ -53,19 +53,19 @@ export default function Footer() {
         </div>
         <div className="col-md-7 footer-actions">
           <div className="col-md-8 offset-md-4 flexy flexyM">
-            <Link to={"/enquiry"}>
+            <Link to={""}>
               {" "}
               <button>
                 Enquire <i class="icofont-long-arrow-right"></i>
               </button>
             </Link>{" "}
-            <Link to={"/apply"}>
+            <Link to={""}>
               {" "}
               <button className="">
                 Apply <i class="icofont-long-arrow-right"></i>
               </button>
             </Link>{" "}
-            <Link to={"/tour"}>
+            <Link to={""}>
               {" "}
               <button>
                 Visit
@@ -132,14 +132,14 @@ export default function Footer() {
           <Link to={""} className="col-md-3">
             Privacy Policy
           </Link>
-          <Link to={"/contact"} className="col-md-3 credit-links">
+          <Link to={""} className="col-md-3 credit-links">
             Sitemap
           </Link>
 
           <Link to={""} className="col-md-3">
             Careers
           </Link>
-          <Link to={"/contact"} className="col-md-3">
+          <Link to={""} className="col-md-3">
             Contact us
           </Link>
         </div>

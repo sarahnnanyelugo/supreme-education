@@ -33,11 +33,9 @@ export const PageModal = (props) => {
         </div>
         <Modal.Body>
           {" "}
-          <center>
-            {" "}
-            <img src={Img} alt="icon" width="85%" />
-          </center>
+         <center> <img src={Img} alt="icon" width="80%" /></center>
         </Modal.Body>
+       
       </Modal>
     </>
   );

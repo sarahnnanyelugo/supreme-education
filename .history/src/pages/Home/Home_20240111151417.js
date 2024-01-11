@@ -140,9 +140,7 @@ export const Home = () => {
               </p>
               <Link to={"/eyfs"}>
                 {" "}
-                <button>
-                  Learn more <i class="icofont-long-arrow-right"></i>
-                </button>
+                <button>Learn more</button>
               </Link>
             </div>
           </div>
@@ -165,12 +163,7 @@ export const Home = () => {
                 accross various domains-physical, social, emotional and
                 cognitive.
               </p>
-              <Link to={"junior-school"}>
-                {" "}
-                <button>
-                  Learn more <i class="icofont-long-arrow-right"></i>
-                </button>
-              </Link>
+              <button>Learn more</button>
             </div>
           </div>{" "}
           <div className="col-md-6  eyfs mvt">
@@ -190,11 +183,7 @@ export const Home = () => {
                 accross various domains-physical, social, emotional and
                 cognitive.
               </p>
-              <Link to={"high-school"}>
-                <button>
-                  Learn more <i class="icofont-long-arrow-right"></i>
-                </button>
-              </Link>
+              <button>Learn more</button>
             </div>
           </div>
         </div>

@@ -104,6 +104,31 @@ export const Home = () => {
           </div>
         </center>
       </div>
+      {/* <div className="col-md-6 flexy offset-md-3 mt">
+        <div className="col-md-6 " style={{ marginTop: "160px" }}>
+          {" "}
+          <img src={Img1} alt="sch-images" className="wd" />
+        </div>
+        <div className="col-md-6 mvt">
+          {" "}
+          <img src={Img2} alt="sch-images" width="100%" className="" />
+        </div>
+      </div>
+      <div className="col-md-8 offset-md-2 flexy mt6">
+        {" "}
+        <div className="col-md-4">
+          {" "}
+          <img src={Img3} alt="sch-images" width="100%" className="col-md-11" />
+        </div>
+        <div className="col-md-4 mvt">
+          {" "}
+          <img src={Img4} alt="sch-images" width="100%" className="col-md-11" />
+        </div>
+        <div className="col-md-4 mvt">
+          {" "}
+          <img src={Img5} alt="sch-images" width="100%" className="col-md-11" />
+        </div>
+      </div> */}
       <center>
         <div className="col-md-9 mt">
           {" "}
@@ -138,12 +163,7 @@ export const Home = () => {
                 accross various domains-physical, social, emotional and
                 cognitive.
               </p>
-              <Link to={"/eyfs"}>
-                {" "}
-                <button>
-                  Learn more <i class="icofont-long-arrow-right"></i>
-                </button>
-              </Link>
+              <button>Learn more</button>
             </div>
           </div>
         </div>
@@ -165,12 +185,7 @@ export const Home = () => {
                 accross various domains-physical, social, emotional and
                 cognitive.
               </p>
-              <Link to={"junior-school"}>
-                {" "}
-                <button>
-                  Learn more <i class="icofont-long-arrow-right"></i>
-                </button>
-              </Link>
+              <button>Learn more</button>
             </div>
           </div>{" "}
           <div className="col-md-6  eyfs mvt">
@@ -190,11 +205,7 @@ export const Home = () => {
                 accross various domains-physical, social, emotional and
                 cognitive.
               </p>
-              <Link to={"high-school"}>
-                <button>
-                  Learn more <i class="icofont-long-arrow-right"></i>
-                </button>
-              </Link>
+              <button>Learn more</button>
             </div>
           </div>
         </div>

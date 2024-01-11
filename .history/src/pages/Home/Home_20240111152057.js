@@ -141,7 +141,10 @@ export const Home = () => {
               <Link to={"/eyfs"}>
                 {" "}
                 <button>
-                  Learn more <i class="icofont-long-arrow-right"></i>
+                  Learn more{" "}
+                  <span>
+                    <i class="icofont-long-arrow-right"></i>
+                  </span>
                 </button>
               </Link>
             </div>
